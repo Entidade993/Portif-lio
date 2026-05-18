@@ -1,0 +1,17 @@
+# Log Analyzer
+
+Monitors system log files in real time, filtering and displaying only error entries.
+
+## How it works
+- Scans `/var/log` (Linux) or `C:\Windows\Logs` (Windows)
+- Filters lines containing error keywords
+- Updates every 5 seconds
+- Displays timestamp, file path, and error message
+
+## Usage
+```bash
+./program
+```
+
+## Built with
+- Nim
